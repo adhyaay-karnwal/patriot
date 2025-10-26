@@ -137,5 +137,7 @@ agent = Agent(
 
 
 ## License
-Not licensed yet. Built by Adhyaay Karnwal for cyberpatriot
+Apache-2.0-license
+Officially opensource
+Built by Adhyaay Karnwal for CyberPatriot.
 
