@@ -1,6 +1,7 @@
 import os
 import time
 from langchain_openai import ChatOpenAI
+from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.prompts import ChatPromptTemplate
 from pydantic import BaseModel
 from typing import Type, List, Optional
@@ -8,11 +9,14 @@ from langchain_core.tools import BaseTool
 from langchain_core.messages import AIMessage
 from openai import APIConnectionError
 
-from dexter.prompts import DEFAULT_SYSTEM_PROMPT
+from patriot.prompts import DEFAULT_SYSTEM_PROMPT
 
-# Initialize the OpenAI client
-# Make sure your OPENAI_API_KEY is set in your .env
-llm = ChatOpenAI(model="gpt-4.1", temperature=0, api_key=os.getenv("OPENAI_API_KEY"))
+# Initialize the LLM
+# Use Gemini if the API key is provided, otherwise fall back to OpenAI
+if os.getenv("GEMINI_API_KEY"):
+    llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0, api_key=os.getenv("GEMINI_API_KEY"))
+else:
+    llm = ChatOpenAI(model="gpt-4.1", temperature=0, api_key=os.getenv("OPENAI_API_KEY"))
 
 def call_llm(
     prompt: str,

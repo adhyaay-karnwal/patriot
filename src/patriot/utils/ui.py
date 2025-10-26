@@ -7,7 +7,7 @@ from functools import wraps
 
 
 class Colors:
-    BLUE = "\033[94m"
+    BLUE = "\033[91m"  # Red
     CYAN = "\033[96m"
     GREEN = "\033[92m"
     YELLOW = "\033[93m"
@@ -17,7 +17,7 @@ class Colors:
     BOLD = "\033[1m"
     DIM = "\033[2m"
     WHITE = "\033[97m"
-    LIGHT_BLUE = "\033[94m"  # Same as DEXTER ASCII art
+    LIGHT_BLUE = "\033[91m"  # Same as PATRIOT ASCII art
 
 
 class Spinner:
