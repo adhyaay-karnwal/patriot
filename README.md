@@ -123,6 +123,5 @@ agent = Agent(
 
 
 ## License
-
-This project is licensed under the MIT License.
+Not licensed yet. Built by Adhyaay Karnwal for cyberpatriot
 
