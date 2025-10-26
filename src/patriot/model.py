@@ -28,7 +28,7 @@ def _initialize_llm():
             raise ModuleNotFoundError(
                 "langchain-google-genai is required for Gemini support. Install it or unset GEMINI_API_KEY."
             )
-        gemini_model = os.getenv("GEMINI_MODEL", "gemini-1.5-flash")
+        gemini_model = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
         return ChatGoogleGenerativeAI(model=gemini_model, temperature=0, api_key=gemini_api_key)
 
     if openai_api_key:
