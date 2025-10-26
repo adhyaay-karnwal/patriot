@@ -111,15 +111,12 @@ agent = Agent(
 )
 ```
 
-## How to Contribute
+## Roadmap
 
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
-**Important**: Please keep your pull requests small and focused.  This will make it easier to review and merge.
+1. Add line breaks to AI answer
+2. Better tool use - terminal actions + file reading
+3. Better OS and systems context
+4. Enhance system prompt + add make it better for windows and linux
 
 
 ## License
