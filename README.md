@@ -2,6 +2,8 @@
 
 Patriot is an autonomous cybersecurity agent that thinks, plans, and learns as it works. It performs analysis using task planning, self-reflection, and real-time security data. It's built specifically to help with CyberPatriot
 
+<img width="979" height="651" alt="Screenshot 2025-10-14 at 6 12 35 PM" src="https://github.com/adhyaay-karnwal/patriot-agent/blob/main/Screenshot%202025-10-26%20160252.png" />
+
 ## Overview
 
 Patriot takes complex cybersecurity questions and turns them into clear, step-by-step research plans. It runs those tasks using live security data, checks its own work, and refines the results until it has a confident, data-backed answer.
