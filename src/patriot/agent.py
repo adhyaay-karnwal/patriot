@@ -2,18 +2,18 @@ from typing import List
 
 from langchain_core.messages import AIMessage
 
-from dexter.model import call_llm
-from dexter.prompts import (
+from patriot.model import call_llm
+from patriot.prompts import (
     ACTION_SYSTEM_PROMPT,
     get_answer_system_prompt,
     PLANNING_SYSTEM_PROMPT,
     get_tool_args_system_prompt,
     VALIDATION_SYSTEM_PROMPT,
 )
-from dexter.schemas import Answer, IsDone, OptimizedToolArgs, Task, TaskList
-from dexter.tools import TOOLS
-from dexter.utils.logger import Logger
-from dexter.utils.ui import show_progress
+from patriot.schemas import Answer, IsDone, OptimizedToolArgs, Task, TaskList
+from patriot.tools import TOOLS
+from patriot.utils.logger import Logger
+from patriot.utils.ui import show_progress
 
 
 class Agent:
