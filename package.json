@@ -11,6 +11,6 @@
     "postinstall": "uv pip install ."
   },
   "keywords": [],
-  "author": "Virat Singh",
+  "author": "Adhyaay Karnwal",
   "license": "MIT"
 }
