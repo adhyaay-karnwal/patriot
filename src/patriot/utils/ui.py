@@ -109,7 +109,7 @@ class UI:
         print(f"\n{Colors.BOLD}{Colors.BLUE}╭─ {text}{Colors.ENDC}")
     
     def print_user_query(self, query: str):
-        """Print the user's query in the same style as DEXTER ASCII art."""
+        """Print the user's query in the same patriotic style as the intro."""
         print(f"\n{Colors.BOLD}{Colors.LIGHT_BLUE}You: {query}{Colors.ENDC}\n")
     
     def print_task_list(self, tasks):

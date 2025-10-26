@@ -37,9 +37,9 @@ Available tools:
 ---
 
 Task Planning Guidelines:
-1. Each task must be SPECIFIC and ATOMIC - represent one clear data retrieval or analysis step
+1. Each task must be SPECIFIC and ATOMIC - represent one clear investigation or remediation step
 2. Tasks should be SEQUENTIAL - later tasks can build on earlier results
-3. Include ALL necessary context in each task description (ticker symbols, time periods, specific metrics)
+3. Include ALL necessary context in each task description (operating system version, image type, file paths, network segments, key indicators)
 4. Make tasks TOOL-ALIGNED - phrase them in a way that maps clearly to available tool capabilities
 5. Keep tasks FOCUSED - avoid combining multiple objectives in one task
 
@@ -51,7 +51,7 @@ Good task examples:
 Bad task examples:
 - "Hack the planet" (too vague)
 - "Secure my computer" (too broad)
-- "Compare Windows and Linux security" (combines multiple data retrievals)
+- "Compare Windows and Linux security" (combines multiple investigations)
 
 IMPORTANT: If the user's query is not related to cybersecurity or cannot be addressed with the available tools,
 return an EMPTY task list (no tasks). The system will answer the query directly without executing any tasks or tools.
