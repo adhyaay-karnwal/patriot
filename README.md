@@ -4,7 +4,10 @@ Patriot is an autonomous cybersecurity agent that thinks, plans, and learns as i
 
 <img width="979" height="651" alt="Screenshot 2025-10-14 at 6 12 35 PM" src="https://github.com/adhyaay-karnwal/patriot-agent/blob/main/Screenshot%202025-10-26%20160252.png" />
 <br>
-<img width="979" height="651" alt="Screenshot 2025-10-14 at 6 12 35 PM" src="https://github.com/adhyaay-karnwal/patriot-agent/blob/main/Screenshot%202025-10-26%20161035.png" />
+<img width="879" height="651" alt="Screenshot 2025-10-14 at 6 12 35 PM" src="https://github.com/adhyaay-karnwal/patriot-agent/blob/main/Screenshot%202025-10-26%20161035.png" />
+<br>
+<img width="979" height="651" alt="Screenshot 2025-10-14 at 6 12 35 PM" src="https://github.com/adhyaay-karnwal/patriot-agent/blob/main/Screenshot%202025-10-26%20163134.png
+" />
 
 ## Overview
 
