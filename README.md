@@ -35,6 +35,16 @@ It’s not just a chatbot.  It’s an agent that plans ahead, verifies its progr
 
 ### Installation
 
+Install UV if not already:
+```bash
+# On macOS and Linux.
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+```bash
+# On Windows.
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
+
 1. Clone the repository:
 ```bash
 git clone https://github.com/adhyaay-karnwal/patriot-agent.git
