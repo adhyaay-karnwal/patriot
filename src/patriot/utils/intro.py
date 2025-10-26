@@ -26,12 +26,11 @@ def print_intro():
 ██╔═══╝ ██╔══██║   ██║   ██╔══██╗██║██║   ██║   ██║   
 ██║     ██║  ██║   ██║   ██║  ██║██║╚██████╔╝   ██║   
 ╚═╝     ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝ ╚═════╝    ╚═╝   
-                                                      
-                                                               
+                                                                                                              
 {RESET}"""
 
     print(patriot_art)
     print()
-    print("Your AI assistant for cybersecurity.")
+    print("AI agent to help with cyberpatriot. Built by Adhyaay")
     print("Ask me any questions. Type 'exit' or 'quit' to end.")
     print()
