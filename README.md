@@ -1,15 +1,12 @@
-# Patriot 🤖
+# Patriot 
 
-Patriot is an autonomous cybersecurity agent that thinks, plans, and learns as it works. It performs analysis using task planning, self-reflection, and real-time security data.
-
-
-(Image here)
+Patriot is an autonomous cybersecurity agent that thinks, plans, and learns as it works. It performs analysis using task planning, self-reflection, and real-time security data. It's built specifically to help with CyberPatriot
 
 ## Overview
 
 Patriot takes complex cybersecurity questions and turns them into clear, step-by-step research plans. It runs those tasks using live security data, checks its own work, and refines the results until it has a confident, data-backed answer.
 
-It’s not just another chatbot.  It’s an agent that plans ahead, verifies its progress, and keeps iterating until the job is done.
+It’s not just a chatbot.  It’s an agent that plans ahead, verifies its progress, and keeps iterating until the job is done.
 
 **Key Capabilities:**
 - **Intelligent Task Planning**: Automatically decomposes complex queries into structured research steps
@@ -25,7 +22,7 @@ It’s not just another chatbot.  It’s an agent that plans ahead, verifies its
 - [uv](https://github.com/astral-sh/uv) package manager
 - OpenAI API key (get [here](https://platform.openai.com/api-keys)) <br>
   OR <br>
-- Gemini API key (get [here](https://aistudio.google.com/app/apikey))
+- Gemini API key (get [here](https://aistudio.google.com/app/apikey)) (FREE TIER - RECOMMENDED)
 
 ### Installation
 
