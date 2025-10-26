@@ -3,7 +3,7 @@
 Patriot is an autonomous cybersecurity agent that thinks, plans, and learns as it works. It performs analysis using task planning, self-reflection, and real-time security data.
 
 
-<img width="979" height="651" alt="Screenshot 2025-10-14 at 6 12 35 PM" src="https://github.com/user-attachments/assets/5a2859d4-53cf-4638-998a-15cef3c98038" />
+(Image here)
 
 ## Overview
 
@@ -18,21 +18,21 @@ It’s not just another chatbot.  It’s an agent that plans ahead, verifies its
 - **Real-Time Security Data**: Access to vulnerability databases, threat intelligence feeds, and more.
 - **Safety Features**: Built-in loop detection and step limits to prevent runaway execution
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/virattt?style=social)](https://twitter.com/virattt)
 
 ### Prerequisites
 
 - Python 3.10 or higher
 - [uv](https://github.com/astral-sh/uv) package manager
-- OpenAI API key (get [here](https://platform.openai.com/api-keys))
+- OpenAI API key (get [here](https://platform.openai.com/api-keys)) <br>
+  OR <br>
 - Gemini API key (get [here](https://aistudio.google.com/app/apikey))
 
 ### Installation
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/virattt/patriot.git
-cd patriot
+git clone https://github.com/adhyaay-karnwal/patriot-agent.git
+cd patriot-agent
 ```
 
 2. Install dependencies with uv:
@@ -40,7 +40,7 @@ cd patriot
 uv sync
 ```
 
-3. Set up your environment variables:
+3. Set up your environment variables(whichever you set, thats the provider patriot will use):
 ```bash
 # Copy the example environment file
 cp env.example .env
