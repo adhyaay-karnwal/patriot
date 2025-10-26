@@ -58,6 +58,8 @@ Run Patriot in interactive mode:
 uv run patriot-agent
 ```
 
+Press CTRL+C to exit or type "exit"
+
 ### Example Queries
 
 Try asking Patriot questions like:
