@@ -47,8 +47,8 @@ powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | ie
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/adhyaay-karnwal/patriot-agent.git
-cd patriot-agent
+git clone https://github.com/adhyaay-karnwal/patriot.git
+cd patriot
 ```
 
 2. Install dependencies with uv:
