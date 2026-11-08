@@ -1,6 +1,6 @@
 # Patriot 
 
-Patriot is an autonomous cybersecurity agent that thinks, plans, and learns as it works. It performs analysis using task planning, self-reflection, and real-time security data. It's built specifically to help with CyberPatriot
+Patriot is an autonomous cybersecurity agent that thinks, plans, and learns as it works. It performs analysis using task planning, self-reflection, and real-time security data. It's built specifically to help with CyberPatriot. This sentence was added as a test.
 
 USAGE INSTRUCTIONS BELOW
 
